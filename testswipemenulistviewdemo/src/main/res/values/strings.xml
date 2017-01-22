@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestSwipeMenuListViewDemo</string>
+    <string-array name="dididi">
+        <item>人之初</item>
+        <item>性本善</item>
+    </string-array>
+</resources>

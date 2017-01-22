@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_ripple_rect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/ripple_red"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="巴拉拉小魔仙——"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tv_ripple_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/ripple_circle"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="全身变！！"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/btn_ripple_rect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_rect"
+        android:clickable="true"
+        android:text="起来！起来！"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_rect"
+        android:clickable="true"
+        android:text="不愿做奴隶的人们"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_rect_shape"
+        android:clickable="true"
+        android:text="把我们的血肉筑成我们新的长城"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_rect"
+        android:clickable="true"
+        android:text="中华民族到了最危险的时候"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_selector_drawable"
+        android:clickable="true"
+        android:text="人们都被迫着发出最后的吼声"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_rect"
+        android:clickable="true"
+        android:text="起来！起来！起来！"
+        android:textSize="24dp" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="bar">#ff6633</color>
+    <color name="stars">#ee6622</color>
+    <color name="lucentred">#99ffccff</color>
+    <color name="lucentblack">#33000000</color>
+    <color name="lucentblue">#6600ffff</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dingdong">
+        <item >人之初</item>
+        <item >性本善</item>
+        <item >性相近</item>
+        <item >习相远</item>
+    </array>
+    <dimen name="dimen1">16dp</dimen>
+    <drawable name="ic_drawable3">#ffcccc</drawable>
+</resources>

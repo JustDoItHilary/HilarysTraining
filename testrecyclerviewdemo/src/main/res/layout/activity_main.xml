@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divider" />
+
+    <Switch
+        android:id="@+id/switch_vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_vibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lalala"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_divider_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Divider_ListView" />
+
+    <Button
+        android:id="@+id/btn_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HTTP" />
+
+    <Button
+        android:id="@+id/btn_volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLLEY" />
+
+    <Button
+        android:id="@+id/btn_okhttp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OKHTTP2" />
+
+    <Button
+        android:id="@+id/btn_file_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FILE_DIALOG" />
+
+
+    <com.example.testrecyclerviewdemo.MyLayoutView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/images" />
+    </com.example.testrecyclerviewdemo.MyLayoutView>
+</LinearLayout>

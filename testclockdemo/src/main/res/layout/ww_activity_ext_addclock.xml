@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="60dp"
+            android:background="#ffffcc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+
+            <ListView
+                android:id="@+id/ext_clock_list_hour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1" />
+
+            <ListView
+                android:id="@+id/ext_clock_list_minutes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="重复"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_clock_repeat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_ext_clock_go"
+            android:gravity="right|center_vertical"
+            android:text="每天"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="标签"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_clock_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_ext_clock_go"
+            android:gravity="right|center_vertical"
+            android:text="闹钟"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="铃声"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_clock_ring"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_ext_clock_go"
+            android:gravity="right|center_vertical"
+            android:text="balabala"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="稍后提醒"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/switch_clock_warn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_clock_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="40dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="删除闹钟"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

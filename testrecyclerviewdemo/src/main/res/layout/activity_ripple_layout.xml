@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/tv_ripple_rect"
+        android:text="巴拉拉小魔仙——"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:id="@+id/tv_ripple_circle"
+        android:text="全身变！！"
+        tools:targetApi="lollipop" />
+    <Button
+        android:id="@+id/btn_ripple_rect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:text="起来！起来！"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>

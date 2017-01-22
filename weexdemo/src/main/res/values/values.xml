@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/castorflex/work/android/SmoothProgressBar/library/src/main/res/values/defaults.xml -->
+    <eat-comment />
+    <bool name="my_default_mirror_mode">false</bool>
+    <bool name="my_default_progressiveStart_activated">false</bool>
+    <bool name="my_default_reversed">false</bool>
+
+    <color name="my_default_color">#33b5e5</color>
+    <!-- From: file:/Users/castorflex/work/android/SmoothProgressBar/library/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="MyProgressBar">
+        <attr name="my_Style" format="reference" />
+        <attr name="my_color" format="color" />
+        <attr name="my_stroke_width" format="dimension" />
+        <attr name="my_stroke_separator_length" format="dimension" />
+        <attr name="my_sections_count" format="integer" />
+        <attr name="my_speed" format="float" />
+        <attr name="my_progressiveStart_speed" format="float" />
+        <attr name="my_progressiveStop_speed" format="float" />
+        <attr name="my_interpolator" format="enum">
+            <enum name="my_interpolator_accelerate" value="0" />
+            <enum name="my_interpolator_linear" value="1" />
+            <enum name="my_interpolator_acceleratedecelerate" value="2" />
+            <enum name="my_interpolator_decelerate" value="3" />
+        </attr>
+        <attr name="my_reversed" format="boolean" />
+        <attr name="my_mirror_mode" format="boolean" />
+        <attr name="my_colors" format="reference" />
+        <attr name="my_progressiveStart_activated" format="boolean" />
+        <attr name="my_background" format="reference" />
+        <attr name="my_generate_background_with_colors" format="boolean" />
+        <attr name="my_gradients" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/Users/castorflex/work/android/SmoothProgressBar/library/src/main/res/values/defaults.xml -->
+    <eat-comment />
+
+    <dimen name="my_default_stroke_separator_length">4dp</dimen>
+    <dimen name="my_default_stroke_width">4dp</dimen>
+
+    <integer name="my_default_interpolator">0</integer>
+    <integer name="my_default_sections_count">4</integer>
+
+    <item name="my_default_speed" format="float" type="string">1.0</item>
+    <!-- From: file:/Users/castorflex/work/android/SmoothProgressBar/library/src/main/res/values/styles.xml -->
+    <eat-comment />
+    <style name="MyProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="my_color">@color/my_default_color</item>
+        <item name="my_sections_count">@integer/my_default_sections_count</item>
+        <item name="my_speed">@string/my_default_speed</item>
+        <item name="my_stroke_width">@dimen/my_default_stroke_width</item>
+        <item name="my_stroke_separator_length">@dimen/my_default_stroke_separator_length</item>
+        <item name="my_reversed">@bool/my_default_reversed</item>
+        <item name="my_mirror_mode">@bool/my_default_mirror_mode</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+    </style>
+
+    <style name="Theme.MyProgressBarDefaults" parent="android:Theme">
+        <item name="my_Style">@style/MyProgressBar</item>
+    </style>
+
+</resources>

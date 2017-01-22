@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.example.weexdemo"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 5
+        versionName "0.6.2.5"
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        ndk{
+//            abiFilters "x86"
+//            abiFilters "armeabi"
+//        }
+    }
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.equals('app-debug.apk')) {
+//                def fileName = outputFile.name.replace("app-debug.apk", "playground.apk")
+//                output.outputFile = new File(outputFile.parent, fileName)
+//            }
+//        }
+//    }
+//    signingConfigs {
+//        release {
+//            storeFile file("tools/weex.jks")
+//            storePassword "123456"
+//            keyAlias "weex"
+//            keyPassword "123456"
+//        }
+//    }
+    buildTypes {
+//        release {
+//            signingConfig signingConfigs.release
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+        debug {
+            testCoverageEnabled true
+        }
+    }
+//    sourceSets {
+//        main {
+//            java {
+//                srcDirs = ["src/main/java", "src/main/java_zxing"];
+//            }
+//        }
+//    }
+//    lintOptions {
+//        abortOnError false
+//    }
+//
+//    packagingOptions {
+//        exclude 'LICENSE.txt'
+//    }
+//    testOptions {
+//        reportDir = "$project.buildDir/test/report"
+//    }
+
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    /*source dependency*/
+    // compile project(':weex_sdk')
+    compile 'com.taobao.android:weex_sdk:0.8.0'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    compile 'com.squareup.okhttp:okhttp-ws:2.3.0'
+    compile 'com.squareup.okio:okio:1.0.1'
+    compile 'com.alibaba:fastjson:1.1.46.android'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:support-annotations:23.1.1'
+    compile 'com.taobao.android:weex_inspector:0.0.8.5'
+    compile 'com.journeyapps:zxing-android-embedded:3.4.0'
+    compile project(':appframework')
+    compile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    compile 'com.facebook.fresco:fresco:0.10.0'
+
+    //图片加载框架
+    /*多线程下载图片，图片可以来源于网络，文件系统，项目文件夹assets中以及drawable中等
+    支持随意的配置ImageLoader，例如线程池，图片下载器，内存缓存策略，硬盘缓存策略，图片显示选项以及其他的一些配置
+    支持图片的内存缓存，文件系统缓存或者SD卡缓存
+    支持图片下载过程的监听
+    根据控件(ImageView)的大小对Bitmap进行裁剪，减少Bitmap占用过多的内存
+    较好的控制图片的加载过程，例如暂停图片加载，重新开始加载图片，一般使用在ListView,GridView中，滑动过程中暂停加载图片，停止滑动的时候去加载图片
+    提供在较慢的网络下对图片进行加载*/
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    //无限期进度条
+//    compile 'com.github.castorflex.smoothprogressbar:library:1.0.1-SNAPSHOT@aar'
+//    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.0.1-SNAPSHOT@aar'
+}

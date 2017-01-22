@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.weexdemo.test.MyProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:padding="20dp"
+        app:my_color="#00ffff"
+        app:my_mirror_mode="false"
+        app:my_progressiveStart_activated="true"
+        app:my_progressiveStart_speed="1.5"
+        app:my_progressiveStop_speed="3.4"
+        app:my_reversed="false"
+        app:my_sections_count="2"
+        app:my_speed="0.6"
+        app:my_stroke_separator_length="60dp"
+        app:my_stroke_width="2dp" />
+    <!--app:spb_color="#00ffff"-->
+    <!--app:spb_sections_count="2"-->
+    <!--app:spb_speed="1"-->
+    <!--app:spb_stroke_separator_length="100dp"-->
+    <!--app:spb_stroke_width="2dp" />-->
+    <!--app:my_color="#00ffff"-->
+    <!--app:my_mirror_mode="false"-->
+    <!--app:my_progressiveStart_activated="true"-->
+    <!--app:my_progressiveStart_speed="1.5"-->
+    <!--app:my_progressiveStop_speed="3.4"-->
+    <!--app:my_reversed="false"-->
+    <!--app:my_sections_count="2"-->
+    <!--app:my_speed="0.6"-->
+    <!--app:my_stroke_separator_length="60dp"-->
+    <!--app:my_stroke_width="2dp" -->
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:padding="20dp"
+        android:progress="60" />
+    <!--android:animationResolution="60"- - - 被舍弃-->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateBehavior="cycle"
+        android:indeterminateDuration="100"
+        android:max="100"
+        android:padding="20dp"
+        android:progress="30" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/progress_img"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@color/colorAccent" />-->
+
+    <com.example.weexdemo.test.MyProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+    <com.example.weexdemo.test.TestProgressBar
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:my_sections_count="2"
+        app:my_stroke_separator_length="60dp"
+        app:my_stroke_width="2dp" />
+
+
+    <!--<fr.castorflex.android.circularprogressbar.CircularProgressBar-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:indeterminate="true"-->
+    <!--app:cpb_color="#FFee44"-->
+    <!--app:cpb_colors="@array/mycolors"-->
+    <!--app:cpb_rotation_speed="1.0"-->
+    <!--app:cpb_sweep_speed="1.0"-->
+    <!--app:cpb_stroke_width="4dp"-->
+    <!--app:cpb_min_sweep_angle="10"-->
+    <!--app:cpb_max_sweep_angle="300"-->
+    <!--/>-->
+
+</LinearLayout>

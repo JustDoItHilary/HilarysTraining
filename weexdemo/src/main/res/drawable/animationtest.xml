@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="50" android:layout_height="50px"
+    android:layout_width="50px" android:oneshot="false">
+    <item android:drawable="@mipmap/ic_launcher" android:duration="2000"
+        android:layout_height="30px" android:layout_width="400px" />
+    <item android:drawable="@drawable/scenery" android:duration="2000"
+        android:layout_height="30px" android:layout_width="400px" />
+</animation-list>

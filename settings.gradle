@@ -1,0 +1,4 @@
+include ':copynotesdemo', ':weexdemo'
+
+include ":appframework"
+project(":appframework").projectDir = new File("../appframework")

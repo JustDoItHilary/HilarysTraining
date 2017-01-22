@@ -1,0 +1,181 @@
+<template>
+	<div >
+		<wxc-navpage height="{{navpageHeight}}" background-color="#3192e1" title="考试列表" title-color="#ffffff" left-item-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2192841312,1420710418&fm=116&gp=0.jpg"></wxc-navpage>
+		<list class="list" style="margin-top:{{navpageHeight}};">
+			<refresh style="width:750;padding:30;flex-direction:row;justify-content:center;" onrefresh="refresh" display="{{isShowRefresh}}">
+				<text style="text-align:center;">PULL TO REFRESH</text>
+				<loading-indicator style="width:50;height:50;color:#3192e1;" ></loading-indicator>
+			</refresh>
+			<cell>
+				<div class="item" repeat="item in paperList">
+					<text class="title">{{item.title}}</text>
+					<div class="div-tag">
+						<text class="target">考试条件:</text>
+						<!-- <div  style="border-width:1;"> -->
+        					<text repeat="tag in item.tags" class="text-tag" style="color:{{tag.color}};">{{tag.name}}</text>
+        				<!-- </div> -->
+        			</div>
+					<!-- <text class="duration">考试时长：{{item.duration}}</text>
+					<text class="newstime">发布时间：{{item.newstime}}</text>
+					<text class="deadline">截止时间：{{item.deadline}}</text> -->
+					<div class="exam-div" >
+						<text class="exam" pid="{{item.id}}" onclick="exam()">参加考试</text>
+					</div>
+					<!-- <wxc-panel>
+						<wxc-button type="primary" size="small" value="参加考试"></wxc-button>
+					</wxc-panel> -->
+				</div>
+			</cell>
+			<loading style="text-align:center;color:#3192e1;" onloading="loading"></loading>
+		</list>
+
+	</div>
+</template>
+
+<style>
+	.list{
+		border-width: 1;
+		padding: 10;
+	}
+	.item{
+		padding: 20;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.title{
+		font-size: 45;
+		font-weight: bold;
+		color: black;
+	}
+	.duration{
+		font-size: 35;
+		color: #aaaaaa;
+		margin-top: 10;
+	}
+	.newstime{
+		font-size: 35;
+		color: #aaaaaa;
+		margin-top: 10;
+	}
+	.deadline{
+		font-size: 35;
+		color: #ff0000;
+		margin-top: 10;
+	}
+	.exam-div{
+		margin-top: 20;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.exam{
+		border-radius: 15;
+		padding: 10;
+		color: #ffffff;
+		background-color: #3192e1;
+	}
+    .div-tag{
+        padding: 20;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .text-tag{
+    	flex-direction: row;
+    	justify-content: center;
+        padding: 10;
+        margin-right: 20;
+        background-color: #cccccc;
+        /*color: #ff5555;*/
+        font-size: 22;
+        text-align: center;
+        border-radius: 10;
+    }
+    .target{
+		font-size: 30;
+		text-align: center;
+		margin-right: 10;
+    }
+</style>
+
+<script>
+	require('weex-components');
+	var dom = require('@weex-module/dom') || {}
+	var modal=require('@weex-module/modal');
+	var stream = require('@weex-module/stream');
+  	var navigator = require('@weex-module/navigator');
+
+	module.exports={
+		data:{
+			navpageHeight:88,
+			isShowRefresh:'hide',
+			isShowLoading:'hide',
+			paperList:[
+				// {'title':'考试名称','duration':'60分','newstime':'2016-12-30 08:30:00','deadline':'2016-12-30 08:30:00'},
+				// {'title':'考试名称','duration':'60分','newstime':'2016-12-30 08:30:00','deadline':'2016-12-30 08:30:00'},
+				// {'title':'考试名称','duration':'60分','newstime':'2016-12-30 08:30:00','deadline':'2016-12-30 08:30:00'},
+				// {'title':'考试名称','duration':'60分','newstime':'2016-12-30 08:30:00','deadline':'2016-12-30 08:30:00'},
+				// {'title':'考试名称','duration':'60分','newstime':'2016-12-30 08:30:00','deadline':'2016-12-30 08:30:00'},
+				],
+			examList:[],
+			paperUrl:'http://192.168.100.140:8080/test_yn/exam/Exam/examList',
+			// examUrl:'http://romenscd.cn:6240/api/v1/user/paper',
+			aUrl:'https://api.github.com/search/repositories?q=language:javascript&sort=stars&order=desc&page=1',
+			examUrl:'http://romenscd.cn:4740/?',
+		},
+		methods:{
+			exam:function(e){
+				console.log('i am the callback '+e.target.attr.pid);
+				// modal.toast({'message':id,'doation':1});
+				var self=this;
+				var pid=e.target.attr.pid;
+				var params = {'url':self.examUrl+'pid='+pid,'animated':'true'};
+        		navigator.push(params, function(e) {
+          			console.log('i am the callback.')
+        		});
+				// self.getData(self.examUrl+'pid='+e.id,function(){});
+
+			},
+			getData:function(url,callback){   			
+				var self = this;
+				console.log('i am the callback '+url);
+				stream.fetch({method: 'GET',url: url,type:'json'}, function(res) {
+					console.log('i am the callback '+res.status);
+        			try {
+          				var results = res.data.data || [];
+						if (Array.isArray(results)) {
+          					callback(results);         			
+              			modal.alert({'message':results.length,'oktitle':'ok'});
+              			}
+        		    } catch(e) {}
+      			},function(res){});
+			},
+			refresh:function(){
+				var self=this;
+				self.isShowRefresh='show';
+				self.paperList='';
+				self.getData(self.paperUrl,function(results){
+					for(var i = 0; i < results.length; i++) {
+            			var paper=results[i];
+              			self.paperList.push(paper);
+            		}
+				});
+				self.isShowRefresh='hide';
+			},
+			loading:function(){
+				var self=this;
+				self.isShowLoading='show';
+				self.isShowLoading='hide';
+			},
+		},
+		created:function(){
+			var self=this;
+			self.getData(self.paperUrl,function(results){
+				// modal.toast({'message':retdata.data.length,'doation':1});
+            	for(var i = 0; i < results.length; i++) {
+            		var paper=results[i];
+              		self.paperList.push(paper);
+            	}
+			});
+		}
+	}
+</script>

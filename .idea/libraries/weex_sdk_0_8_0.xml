@@ -2,8 +2,8 @@
   <library name="weex_sdk-0.8.0">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../appframework/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.8.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/copynotesdemo/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.8.0/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/weexdemo/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.8.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/copynotesdemo/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.8.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../appframework/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.8.0/res" />

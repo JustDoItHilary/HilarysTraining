@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="volly-1.0.11">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/testrecyclerviewdemo/libs/volley-1.0.11-2015.03.03/volly-1.0.11.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

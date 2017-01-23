@@ -1,6 +1,4 @@
-include ':copynotesdemo', ':weexdemo',':testrecyclerviewdemo', ':testjacksondemo', ':testgreen', ':testkryo',
-        ':app', ':myregexdemo', ':testrippledemo',
-        ':testswipemenulistviewdemo', ':testswipmenulistviewlibrary', ':testrxjava', ':testmvprxjava', ':testclockdemo'
+include ':copynotesdemo', ':weexdemo'
 
 include ":appframework"
 project(":appframework").projectDir = new File("../appframework")

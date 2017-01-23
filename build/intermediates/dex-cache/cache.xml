@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_180e81c1de2fc0d61d7eaedb207c1d739833b49b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.esotericsoftware\kryo-shaded\3.0.3\977d6b42d82de551fcf77dad84ef06c2839e3a74\kryo-shaded-3.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="977d6b42d82de551fcf77dad84ef06c2839e3a74">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\kryo-shaded-3.0.3_5917bcd4654cad26e31af25a1423586e065b1b30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fbcore-0.10.0_5cf6e0b89d2b6ac30af8b84c19796d54f4ba1fc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_24b6f1900d99d17666bb413030f1ec2d5ad58029\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_4f4cdf1b79f511f772e2ad21891509a69ffc5824\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-library-1.3_c1007faa3285d27046b3c4f0d123144d02bbfde6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-0.10.0_54c98d40a8e4f0dd6f3c0932fc59c8ce63cc5303\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.taobao.android\weex_sdk\0.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="21fc558866818bff054a556bfff2695ddef9e5b8">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.taobao.android-weex_sdk-0.8.0_1a8fac325db52def76a534fcb21ceeddaa928df4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.3.0\2e7bc7033dc2c8423e661224171b3133fb155b28\okhttp-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.3.0_0201d3a360d5aa03d1d4e59072aae91f5f252909\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.1\87c0ea803b69252868d09308b4618f766f135a96\objenesis-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="87c0ea803b69252868d09308b4618f766f135a96">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\objenesis-2.1_b37c86dfec0f03d93f941129cb6ff3b2e088a8d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-base-0.10.0_ddd6f16db606aa63b8e8c1f0d6942a6183d5693b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.3.0_072691723da23acac2cdf0ad9aac9c148751ae11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.esotericsoftware\minlog\1.3.0\ff07b5f1b01d2f92bb00a337f9a94873712f0827\minlog-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ff07b5f1b01d2f92bb00a337f9a94873712f0827">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\minlog-1.3.0_430631a3e30242b50138c3ec83643b4b3704f844\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.27\58c9cbf0f1fa296f93c712f2cf46de50471920f9\jcommander-1.27.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="58c9cbf0f1fa296f93c712f2cf46de50471920f9">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\jcommander-1.27_0d9457da124298f27368f208b1926e39cbf813a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_85ce5ec7b0e7436598e788b608e7b648a1d18ef3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.msgpack\msgpack\0.6.12\6a0c88fe022993c490011c3dce7127b29f9a9b3b\msgpack-0.6.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6a0c88fe022993c490011c3dce7127b29f9a9b3b">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\msgpack-0.6.12_6822be5afa2fb0bd8c1ffdea40c8a29c4497c54b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_6cc40f250e22265c856bb9cb1165b3a871840583\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.3_8012734e1d122c9452ce7ee47350a16fd128136f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.journeyapps-zxing-android-embedded-3.4.0_51e184503bdfcb1f54dcc58c8abaafae0348d66f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.18.1-GA\d9a09f7732226af26bf99f19e2cffe0ae219db5b\javassist-3.18.1-GA.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d9a09f7732226af26bf99f19e2cffe0ae219db5b">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\javassist-3.18.1-GA_dfe8698d8c1799e3b90dcda2bcab7af8ebe73b9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_949a04905ffc84754ef63ab06053f3b9d4827377\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.taobao.android\weex_inspector\0.0.8.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0233bf1f05458a35f58379984eee05a926cc47d5">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.taobao.android-weex_inspector-0.0.8.5_8e4e3646bc9483265b83377d2ac0cc611a4827d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\APPS\android-studio\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\commons-codec-1.10_50c2855a23f7691c5ef466e97764312f81013759\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.1.4_27580f1d46649e955c688a26f78302c16ed86dc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\javax.annotation-api-1.2_d867681bf33c31c9bc6db31605aad329666ec491\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-drawee-0.10.0_ffb1f67bbbb7c52d799141a7145e72a3ade12106\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\javawriter-2.1.1_c702f96135b573f4ab8a38b6f053e746e0e1bc63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1a00900d65b18282b2a1713651fd329d9deeafa9">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d645541a4f838c98076f1e0a3f66b3b20dec46f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.testng\testng\6.8.8\c4fb20cf89d278d71667d7273fa6e6cff8b97ca9\testng-6.8.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c4fb20cf89d278d71667d7273fa6e6cff8b97ca9">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\testng-6.8.8_9dd3875374e10fdc11b2c77948b452a5b7f38ff2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-exposed-instrumentation-api-publish-0.5_d44f0f06af8b1f10bb762b1a71849993246dacb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="041163991c856bfde41cfbadca1e39619e4f5af6">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3642992037fe04831bee9e91571a691e54f72f94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f03ee26577eea6d06c56ded2c7f4cbf5b2a45a5e">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8ba027ab1bd5a8b7f27f486152524fbfa70a822e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.2.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test.espresso-espresso-core-2.2.2_eb95c464e6a6ab7b39687b42d939fd70e0b375f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_bcde08d0caab3b4ea4e2b06108e1fe7a41650687\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ad43136553179c8e768a5c41b1fdd8ca903607cc">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3912e4d43bf1efa41940b6655fef493b663dac20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\APPS\sdk_android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_76b4319bbd7bc321ac661ec5a4178b4e4c7a8342\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_a2509351062f4da7a3bc1af7e570abb07f1bf38a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_8d84e5d996c8f165bebdfe84a26f85fe8abbf267\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_0b8730cb5a40c6f33a42ae8cc7cb86c66dc15dca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_028e6c6e08289a200c9e31479a4523a27c8fd3ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.googlecode.json-simple\json-simple\1.1.1\c9ad4a0850ab676c5c64461a05ca524cdfff59f1\json-simple-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c9ad4a0850ab676c5c64461a05ca524cdfff59f1">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\json-simple-1.1.1_b8902adf188842d85b8892a207f95c1a86ef532a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.beanshell\bsh\2.0b4\a05f0a0feefa8d8467ac80e16e7de071489f0d9c\bsh-2.0b4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a05f0a0feefa8d8467ac80e16e7de071489f0d9c">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\bsh-2.0b4_d71457c2c12f08d8a0479b934db57f76381869f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fresco-0.10.0_2b57ddec9531b9a60a6f89dee7cafcf78cd19289\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_d246da74fd9e93c29ca6ec725b7a41e62f2941b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_0a78fe57675ce5b7764b660eaff0c701ccc36505\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_ecfd4dd9fb919de480ec8137930c7a701a2aea80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-rules-0.5_877b404727d2c781f08f277466c50c156f699bcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.1.46.android\108717c93f7aec31fb86db57cb4ad1e26034c638\fastjson-1.1.46.android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.1.46.android_94752945d69bf322ff3521fa6c2947e75f176d3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-idling-resource\2.2.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test.espresso-espresso-idling-resource-2.2.2_9519a280dd1fce29fb5e64c2ee1997458e20ab1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_ce39b26a97a24443dfb9ded2b59332a3c71ed64c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_efc735a8b2eadcbc65978983ea9fee1c37d5705a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-2.0.1_867a535a693e8793bee80ecf7ec7a5a9438481f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-integration-1.3_287fb558423edf68d8f126526178f1aa22a79751\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\APPS\sdk_android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\workbence_studio\HilarysTraining\testkryo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_b5d3682fd9c922f4e2792b152de6be641c336400\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.PC-201608030926\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.3.0\7896d229b6aa7884552ab9c23de54c7eb0de8203\okhttp-ws-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-ws-2.3.0_bc111b8f16b259dacf811c2bae6210e51d95d737\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="D:\workbence_studio\HilarysTraining\weexdemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-runner-0.5_7a40583369b63a5a4bcf6bf132e1c7dce5017888\classes.dex" />
+    </item>
+
+</items>

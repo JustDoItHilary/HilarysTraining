@@ -29,8 +29,8 @@ public class IndexActivity extends AbsWeexActivity {
 //        loadUrl("http://192.168.100.140:8080/test/ui/zhy/js/test.js");
 //        loadUrl("http://192.168.100.140:8080/test/ui/zhy/js/userlist.js");
 //        loadUrl("https://raw.github.com/mozilla/pdf.js/gh-pages/build/pdf.js");
-        loadUrl("http://sources.ikeepstudying.com/js/jquery-1.8.3.min.js");
-//        loadUrl(url);
+//        loadUrl("http://sources.ikeepstudying.com/js/jquery-1.8.3.min.js");
+        loadUrl(url);
 //        loadUrl("file://assert/dist/modules/listtest.js");
     }
 

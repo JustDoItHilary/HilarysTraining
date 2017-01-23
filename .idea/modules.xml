@@ -5,6 +5,17 @@
       <module fileurl="file://$PROJECT_DIR$/HilarysTraining.iml" filepath="$PROJECT_DIR$/HilarysTraining.iml" />
       <module fileurl="file://$PROJECT_DIR$/../appframework/appframework.iml" filepath="$PROJECT_DIR$/../appframework/appframework.iml" />
       <module fileurl="file://$PROJECT_DIR$/copynotesdemo/copynotesdemo.iml" filepath="$PROJECT_DIR$/copynotesdemo/copynotesdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myregexdemo/myregexdemo.iml" filepath="$PROJECT_DIR$/myregexdemo/myregexdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testclockdemo/testclockdemo.iml" filepath="$PROJECT_DIR$/testclockdemo/testclockdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testgreen/testgreen.iml" filepath="$PROJECT_DIR$/testgreen/testgreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjacksondemo/testjacksondemo.iml" filepath="$PROJECT_DIR$/testjacksondemo/testjacksondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testkryo/testkryo.iml" filepath="$PROJECT_DIR$/testkryo/testkryo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmvprxjava/testmvprxjava.iml" filepath="$PROJECT_DIR$/testmvprxjava/testmvprxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testrecyclerviewdemo/testrecyclerviewdemo.iml" filepath="$PROJECT_DIR$/testrecyclerviewdemo/testrecyclerviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testrippledemo/testrippledemo.iml" filepath="$PROJECT_DIR$/testrippledemo/testrippledemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testrxjava/testrxjava.iml" filepath="$PROJECT_DIR$/testrxjava/testrxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testswipemenulistviewdemo/testswipemenulistviewdemo.iml" filepath="$PROJECT_DIR$/testswipemenulistviewdemo/testswipemenulistviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testswipmenulistviewlibrary/testswipmenulistviewlibrary.iml" filepath="$PROJECT_DIR$/testswipmenulistviewlibrary/testswipmenulistviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/weexdemo/weexdemo.iml" filepath="$PROJECT_DIR$/weexdemo/weexdemo.iml" />
     </modules>
   </component>

@@ -4,10 +4,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
-
-import com.alibaba.weex.commons.AbsWeexActivity;
-import com.alibaba.weex.commons.util.AppConfig;
 import com.example.weexdemo.R;
+import com.example.weexlibrary.commons.AbsWeexActivity;
+import com.example.weexlibrary.commons.util.AppConfig;
 import com.taobao.weex.IWXRenderListener;
 import com.taobao.weex.WXSDKInstance;
 import com.taobao.weex.common.WXRenderStrategy;

@@ -1,4 +1,4 @@
-package com.example.copynotesdemo.weex;
+package com.example.weexlibrary.extend.component;
 
 import android.content.Context;
 import android.text.SpannableString;

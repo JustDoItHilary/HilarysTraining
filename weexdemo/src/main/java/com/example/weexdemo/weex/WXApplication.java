@@ -2,10 +2,10 @@ package com.example.weexdemo.weex;
 
 import android.app.Application;
 
-import com.alibaba.weex.commons.util.AppConfig;
-import com.alibaba.weex.extend.component.RichText;
-import com.alibaba.weex.extend.module.RenderModule;
-import com.alibaba.weex.extend.module.WXEventModule;
+import com.example.weexlibrary.commons.util.AppConfig;
+import com.example.weexlibrary.extend.component.RichText;
+import com.example.weexlibrary.extend.module.RenderModule;
+import com.example.weexlibrary.extend.module.WXEventModule;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.taobao.weex.InitConfig;
 import com.taobao.weex.WXEnvironment;

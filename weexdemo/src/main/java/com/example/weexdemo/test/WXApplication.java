@@ -2,9 +2,9 @@ package com.example.weexdemo.test;
 
 import android.app.Application;
 
-import com.alibaba.weex.commons.adapter.ImageAdapter;
-import com.alibaba.weex.commons.util.AppConfig;
-import com.alibaba.weex.commons.util.ExtensionManager;
+import com.example.weexlibrary.commons.adapter.ImageAdapter;
+import com.example.weexlibrary.commons.util.AppConfig;
+import com.example.weexlibrary.commons.util.ExtensionManager;
 import com.taobao.weex.InitConfig;
 import com.taobao.weex.WXEnvironment;
 import com.taobao.weex.WXSDKEngine;

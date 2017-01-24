@@ -44,7 +44,7 @@ dependencies {
     compile 'com.android.support:support-annotations:23.1.1'
     compile 'com.taobao.android:weex_inspector:0.0.8.5'
     compile 'com.journeyapps:zxing-android-embedded:3.4.0'
-    compile project(':appframework')
+    compile 'com.squareup.picasso:picasso:2.5.2'
 
     compile 'io.reactivex:rxjava:1.1.5'
 }

@@ -22,7 +22,7 @@
             <option value="$PROJECT_DIR$/testswipemenulistviewdemo" />
             <option value="$PROJECT_DIR$/testswipmenulistviewlibrary" />
             <option value="$PROJECT_DIR$/weexdemo" />
-            <option value="$PROJECT_DIR$/../appframework" />
+            <option value="$PROJECT_DIR$/weexlibrary" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

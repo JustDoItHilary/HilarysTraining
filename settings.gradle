@@ -1,6 +1,4 @@
-include ':copynotesdemo', ':weexdemo',':testrecyclerviewdemo', ':testjacksondemo', ':testgreen', ':testkryo',
-        ':myregexdemo', ':testrippledemo',':testswipemenulistviewdemo', ':testswipmenulistviewlibrary', ':testrxjava',
+include ':copynotesdemo', ':weexdemo', ':testrecyclerviewdemo', ':testjacksondemo', ':testgreen', ':testkryo', ':weexlibrary',
+        ':myregexdemo', ':testrippledemo', ':testswipemenulistviewdemo', ':testswipmenulistviewlibrary', ':testrxjava',
         ':testmvprxjava', ':testclockdemo'
 
-include ":appframework"
-project(":appframework").projectDir = new File("../appframework")

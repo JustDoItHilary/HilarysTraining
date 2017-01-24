@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.ViewGroup;
 
-import com.alibaba.weex.commons.AbsWeexActivity;
 import com.example.weexdemo.R;
+import com.example.weexlibrary.commons.AbsWeexActivity;
 import com.taobao.weex.WXSDKInstance;
 
 public class IndexActivity extends AbsWeexActivity {

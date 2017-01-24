@@ -2,14 +2,15 @@ package com.example.weexdemo.weex;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.alibaba.weex.commons.AbsWeexActivity;
-import com.alibaba.weex.commons.util.AppConfig;
 import com.example.weexdemo.R;
+import com.example.weexlibrary.commons.AbsWeexActivity;
+import com.example.weexlibrary.commons.util.AppConfig;
 import com.taobao.weex.WXSDKInstance;
 
 public class IndexActivity extends AbsWeexActivity {

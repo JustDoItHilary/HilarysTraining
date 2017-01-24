@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.copynotesdemo.weex;
+package com.example.weexlibrary.commons.util;
 
 import org.xmlpull.v1.XmlSerializer;
 

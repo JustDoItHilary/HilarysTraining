@@ -202,7 +202,7 @@
  *    See the License for the specific language governing permissions and
  *    limitations under the License.
  */
-package com.example.copynotesdemo.weex;
+package com.example.weexlibrary.commons;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -222,6 +222,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.weexlibrary.commons.util.AssertUtil;
+import com.example.weexlibrary.commons.util.ScreenUtil;
 import com.taobao.weex.IWXRenderListener;
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.WXSDKInstance;

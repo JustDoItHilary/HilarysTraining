@@ -1,4 +1,4 @@
-package com.example.copynotesdemo.weex;
+package com.example.weexlibrary.commons.util;
 
 import android.content.Context;
 import android.content.res.XmlResourceParser;

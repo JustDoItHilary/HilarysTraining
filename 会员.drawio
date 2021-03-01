@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T09:54:06.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="nfbRidQFANpNawNhcpgG" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T09:55:07.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="a-QXR46lXxqNPLd1_jkW" version="14.4.3" type="github" pages="2">
   <diagram id="2LWu0yo-6fQRJ07epxTE" name="Page-1">
     <mxGraphModel dx="1047" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,12 +189,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tYHTIATxIcR3hrglEKvy-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tYHTIATxIcR3hrglEKvy-69" target="tYHTIATxIcR3hrglEKvy-71">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="870" y="360" />
-              <mxPoint x="870" y="360" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tYHTIATxIcR3hrglEKvy-69" value="退货" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="260" width="80" height="30" as="geometry" />
@@ -274,7 +269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HbGo5-caFmJTjo9cXi7R" name="Page-2">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1047" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ttavIkpEvPPcWypS6qjb-0" />
         <mxCell id="ttavIkpEvPPcWypS6qjb-1" parent="ttavIkpEvPPcWypS6qjb-0" />

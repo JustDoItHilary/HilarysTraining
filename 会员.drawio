@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T06:33:18.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="WPyt_Xcxw7fAQ1CVyB4G" version="14.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-04T06:36:24.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="NBtRHionUnYlSHuGE88U" version="14.4.3" type="github" pages="4">
   <diagram id="2LWu0yo-6fQRJ07epxTE" name="Page-1">
     <mxGraphModel dx="1222" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tYHTIATxIcR3hrglEKvy-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;会员中心积分变动流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;" parent="1" vertex="1">
+        <mxCell id="tYHTIATxIcR3hrglEKvy-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;会员中心积分变动流程（现状）&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="90" width="970" height="780" as="geometry" />
         </mxCell>
         <mxCell id="tYHTIATxIcR3hrglEKvy-2" value="一美多" style="swimlane;html=1;startSize=20;horizontal=0;" parent="tYHTIATxIcR3hrglEKvy-1" vertex="1">
@@ -151,7 +151,7 @@
       <root>
         <mxCell id="ttavIkpEvPPcWypS6qjb-0" />
         <mxCell id="ttavIkpEvPPcWypS6qjb-1" parent="ttavIkpEvPPcWypS6qjb-0" />
-        <mxCell id="nJ0QCx3TuC5LVo5OvKf7-0" value="&lt;font style=&quot;line-height: 90% ; font-size: 18px&quot;&gt;会员中心注册、基础信息变动流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;" parent="ttavIkpEvPPcWypS6qjb-1" vertex="1">
+        <mxCell id="nJ0QCx3TuC5LVo5OvKf7-0" value="&lt;font style=&quot;line-height: 90% ; font-size: 18px&quot;&gt;会员中心注册、基础信息变动流程（现状）&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;" parent="ttavIkpEvPPcWypS6qjb-1" vertex="1">
           <mxGeometry x="140" y="70" width="850" height="750" as="geometry" />
         </mxCell>
         <mxCell id="nJ0QCx3TuC5LVo5OvKf7-1" value="一美多" style="swimlane;html=1;startSize=20;horizontal=0;" parent="nJ0QCx3TuC5LVo5OvKf7-0" vertex="1">
@@ -318,7 +318,7 @@
       <root>
         <mxCell id="X4O0_PccCRZSthAtxyzy-0" />
         <mxCell id="X4O0_PccCRZSthAtxyzy-1" parent="X4O0_PccCRZSthAtxyzy-0" />
-        <mxCell id="X4O0_PccCRZSthAtxyzy-20" value="&lt;font style=&quot;font-size: 20px&quot;&gt;会员注册、基础信息变动流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;rounded=0;fillColor=#B2C9AB;fontColor=#46495D;fontSize=10;align=center;verticalAlign=middle;strokeColor=#007FFF;" parent="X4O0_PccCRZSthAtxyzy-1" vertex="1">
+        <mxCell id="X4O0_PccCRZSthAtxyzy-20" value="&lt;font style=&quot;font-size: 20px&quot;&gt;会员注册、基础信息变动流程（预期）&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;rounded=0;fillColor=#B2C9AB;fontColor=#46495D;fontSize=10;align=center;verticalAlign=middle;strokeColor=#007FFF;" parent="X4O0_PccCRZSthAtxyzy-1" vertex="1">
           <mxGeometry x="-750" y="80" width="1070" height="830" as="geometry" />
         </mxCell>
         <mxCell id="X4O0_PccCRZSthAtxyzy-21" value="公众号" style="swimlane;html=1;startSize=20;horizontal=0;" parent="X4O0_PccCRZSthAtxyzy-20" vertex="1">
@@ -552,7 +552,7 @@
       <root>
         <mxCell id="7yyPCtKprYyJ6uGV97Mq-0" />
         <mxCell id="7yyPCtKprYyJ6uGV97Mq-1" parent="7yyPCtKprYyJ6uGV97Mq-0" />
-        <mxCell id="OK28bGuXXc2bmuVuAYxi-0" value="&lt;font style=&quot;font-size: 20px&quot;&gt;会员积分、美豆变动流程&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;rounded=0;fillColor=#B2C9AB;fontColor=#46495D;fontSize=10;align=center;verticalAlign=middle;strokeColor=#007FFF;" vertex="1" parent="7yyPCtKprYyJ6uGV97Mq-1">
+        <mxCell id="OK28bGuXXc2bmuVuAYxi-0" value="&lt;font style=&quot;font-size: 20px&quot;&gt;会员积分、美豆变动流程（预期）&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=50;horizontalStack=0;rounded=0;fillColor=#B2C9AB;fontColor=#46495D;fontSize=10;align=center;verticalAlign=middle;strokeColor=#007FFF;" vertex="1" parent="7yyPCtKprYyJ6uGV97Mq-1">
           <mxGeometry x="-750" y="80" width="1150" height="830" as="geometry" />
         </mxCell>
         <mxCell id="OK28bGuXXc2bmuVuAYxi-1" value="公众号" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="OK28bGuXXc2bmuVuAYxi-0">

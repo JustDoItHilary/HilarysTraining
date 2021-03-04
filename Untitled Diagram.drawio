@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T03:13:14.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="rkd33FvtVx3MZVY1mctz" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-04T03:14:30.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="tWS4s_by15_k8daTzf3m" version="14.4.3" type="github" pages="2">
   <diagram id="soqSBY8rFJ3MJ6SPKFcQ" name="Page-1">
     <mxGraphModel dx="862" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,6 +164,9 @@
           <mxGeometry x="0.2179" relative="1" as="geometry">
             <mxPoint x="-18.76" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RPGrUnJypbII513YRrt8-6" value="会员上线后流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

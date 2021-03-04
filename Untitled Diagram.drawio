@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T03:14:30.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="tWS4s_by15_k8daTzf3m" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-04T03:17:05.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="g_CDaosezBQbvaKPa3ig" version="14.4.3" type="github" pages="2">
   <diagram id="soqSBY8rFJ3MJ6SPKFcQ" name="Page-1">
     <mxGraphModel dx="862" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="knyb-PwK3GWkxclU8VCy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeWidth=3;strokeColor=#FF0000;" parent="1" source="knyb-PwK3GWkxclU8VCy-1" target="knyb-PwK3GWkxclU8VCy-4" edge="1">
+        <mxCell id="knyb-PwK3GWkxclU8VCy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeWidth=3;strokeColor=#009900;" parent="1" source="knyb-PwK3GWkxclU8VCy-1" target="knyb-PwK3GWkxclU8VCy-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="360" y="385" />
@@ -17,8 +17,8 @@
             <mxPoint x="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="knyb-PwK3GWkxclU8VCy-14" value="同步会员信息&lt;br&gt;好友关系&lt;br&gt;粉丝关系&lt;br&gt;积分余额" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeWidth=3;strokeColor=#FF0000;" parent="1" source="knyb-PwK3GWkxclU8VCy-1" target="knyb-PwK3GWkxclU8VCy-6" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
+        <mxCell id="knyb-PwK3GWkxclU8VCy-14" value="同步会员信息&lt;br&gt;好友关系&lt;br&gt;粉丝关系&lt;br&gt;积分余额" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeWidth=3;strokeColor=#009900;" parent="1" source="knyb-PwK3GWkxclU8VCy-1" target="knyb-PwK3GWkxclU8VCy-6" edge="1">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -57,7 +57,7 @@
         <mxCell id="knyb-PwK3GWkxclU8VCy-2" value="商城&lt;br&gt;（小程序、公众号、APP）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="knyb-PwK3GWkxclU8VCy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeWidth=3;strokeColor=#007FFF;" parent="1" source="knyb-PwK3GWkxclU8VCy-4" edge="1">
+        <mxCell id="knyb-PwK3GWkxclU8VCy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeWidth=3;strokeColor=#009900;" parent="1" source="knyb-PwK3GWkxclU8VCy-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="360" as="targetPoint" />
             <Array as="points">
@@ -89,14 +89,6 @@
         </mxCell>
         <mxCell id="knyb-PwK3GWkxclU8VCy-5" value="店员助手&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22360%22%20y%3D%22240%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="knyb-PwK3GWkxclU8VCy-9" value="同步会员信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeWidth=3;strokeColor=#FF0000;" parent="1" source="knyb-PwK3GWkxclU8VCy-6" target="knyb-PwK3GWkxclU8VCy-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="390" y="470" />
-              <mxPoint x="390" y="470" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="knyb-PwK3GWkxclU8VCy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="knyb-PwK3GWkxclU8VCy-6" target="knyb-PwK3GWkxclU8VCy-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -167,6 +159,21 @@
         </mxCell>
         <mxCell id="RPGrUnJypbII513YRrt8-6" value="会员上线后流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cgp2lIKtwQ27PDbY8Mg6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeWidth=3;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="250" />
+              <mxPoint x="110" y="250" />
+            </Array>
+            <mxPoint x="80" y="250.0588235294117" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cgp2lIKtwQ27PDbY8Mg6-2" value="同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cgp2lIKtwQ27PDbY8Mg6-1">
+          <mxGeometry x="0.1667" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

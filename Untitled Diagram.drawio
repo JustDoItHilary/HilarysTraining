@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T06:19:28.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="I2wN9zRraqX0EWo9gVVu" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-04T06:21:57.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="y8QwVkzy7NeswAa-zqNJ" version="14.4.3" type="github" pages="2">
   <diagram id="soqSBY8rFJ3MJ6SPKFcQ" name="Page-1">
     <mxGraphModel dx="862" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,9 +49,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="knyb-PwK3GWkxclU8VCy-16" value="下单（美豆增减）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#007FFF;strokeWidth=3;" parent="1" source="knyb-PwK3GWkxclU8VCy-2" target="knyb-PwK3GWkxclU8VCy-1" edge="1">
-          <mxGeometry x="-0.2727" y="30" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="knyb-PwK3GWkxclU8VCy-16" value="下单&lt;br&gt;（美豆增减）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#007FFF;strokeWidth=3;" parent="1" source="knyb-PwK3GWkxclU8VCy-2" target="knyb-PwK3GWkxclU8VCy-1" edge="1">
+          <mxGeometry x="-0.4545" y="10" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="knyb-PwK3GWkxclU8VCy-2" value="商城&lt;br&gt;（小程序、公众号、APP）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -106,8 +106,8 @@
         <mxCell id="knyb-PwK3GWkxclU8VCy-6" value="CRM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="knyb-PwK3GWkxclU8VCy-21" value="积分变动&lt;br&gt;抵现、兑换、消费加积分" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=3;" parent="1" source="knyb-PwK3GWkxclU8VCy-4" edge="1">
-          <mxGeometry x="0.3399" y="-20" relative="1" as="geometry">
+        <mxCell id="knyb-PwK3GWkxclU8VCy-21" value="下单&lt;br&gt;（积分增减）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=3;" parent="1" source="knyb-PwK3GWkxclU8VCy-4" edge="1">
+          <mxGeometry x="0.4063" relative="1" as="geometry">
             <mxPoint x="119" y="350" as="targetPoint" />
             <Array as="points">
               <mxPoint x="150" y="290" />
@@ -155,7 +155,7 @@
         </mxCell>
         <mxCell id="RPGrUnJypbII513YRrt8-5" value="&lt;span style=&quot;font-size: 11px&quot;&gt;查询会员信息&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="RPGrUnJypbII513YRrt8-4">
           <mxGeometry x="0.2179" relative="1" as="geometry">
-            <mxPoint x="-52.589999999999996" y="-30.06" as="offset" />
+            <mxPoint x="-39.65" y="-30.06" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RPGrUnJypbII513YRrt8-6" value="会员业务流程（预期）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
@@ -223,8 +223,8 @@
             <mxPoint x="440" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xqJWrVlXxcV9ZFjP9cWG-6" value="下单（积分增减）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#007FFF;strokeWidth=3;" parent="84sm-JnvDAqkllqsL5zi-1" source="xqJWrVlXxcV9ZFjP9cWG-7" target="xqJWrVlXxcV9ZFjP9cWG-10" edge="1">
-          <mxGeometry x="0.2727" y="36" relative="1" as="geometry">
+        <mxCell id="xqJWrVlXxcV9ZFjP9cWG-6" value="下单&lt;br&gt;（积分增减）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#007FFF;strokeWidth=3;" parent="84sm-JnvDAqkllqsL5zi-1" source="xqJWrVlXxcV9ZFjP9cWG-7" target="xqJWrVlXxcV9ZFjP9cWG-10" edge="1">
+          <mxGeometry x="0.2699" relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="220" y="260" />
@@ -285,8 +285,8 @@
         <mxCell id="xqJWrVlXxcV9ZFjP9cWG-17" value="CRM" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sm-JnvDAqkllqsL5zi-1" vertex="1">
           <mxGeometry x="360" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xqJWrVlXxcV9ZFjP9cWG-18" value="积分变动&lt;br&gt;抵现、兑换、消费加积分" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=3;" parent="84sm-JnvDAqkllqsL5zi-1" source="xqJWrVlXxcV9ZFjP9cWG-10" edge="1">
-          <mxGeometry x="0.3061" y="-20" relative="1" as="geometry">
+        <mxCell id="xqJWrVlXxcV9ZFjP9cWG-18" value="下单&lt;br&gt;（积分增减）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=3;" parent="84sm-JnvDAqkllqsL5zi-1" source="xqJWrVlXxcV9ZFjP9cWG-10" edge="1">
+          <mxGeometry x="0.3057" relative="1" as="geometry">
             <mxPoint x="119" y="410" as="targetPoint" />
             <Array as="points">
               <mxPoint x="150" y="350" />
